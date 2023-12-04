@@ -61,7 +61,7 @@ nav a {
      font-size: 20px;
      font-weight: 700;
      color: white;
-     padding: 15px 35px;
+     padding: 12px 30px;
 }
 
 /* header related style style */
@@ -218,5 +218,49 @@ main section {
 }
 
 .dwonload-cv{
-     text-align: center;
+     text-align:center;
 }
+
+/* footer style */
+
+.twiter{
+     width: 30px;
+}
+
+footer{
+     display: flex;
+     background: #FFF8F3;
+     padding: 130px 200px;
+     margin-top: 100px;
+     gap: 100px;
+}
+
+.footer-column{
+     width: 50%;
+}
+
+.contract input[type="text"], .contract input[type="email"],
+textarea{
+     display: block;
+     margin-bottom: 25px;
+     padding: 18px 35px;
+     color:#757575;
+     border: 0px;
+     border-radius: 5px;
+     background-color: white;
+     width: 100%;
+}
+
+.social-links a {
+     margin-right: 10px;
+     
+}
+
+.social-links{
+     padding-left: 180px;
+}
+
+form .btn-primary{
+     margin-left: 220px;
+}
+
