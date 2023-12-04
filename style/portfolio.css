@@ -69,6 +69,10 @@ nav a {
 .header {
      background-color: #FFF8F3;
      align-items: center;
+     background-image:url(../images/background.png),url(../images/Developer.png);
+     background-repeat: no-repeat;
+     background-position: bottom right, top left;
+     background-size: 580px,80px;
 
 }
 
@@ -77,10 +81,7 @@ nav a {
      display: flex;
      justify-content: space-between;
      align-items: center;
-     background-image:url(/background.png);
-     background-repeat: no-repeat;
-     background-position: bottom right;
-     background-size: 580px;
+     
 }
 
 .banner-content {
